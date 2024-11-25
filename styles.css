@@ -1,32 +1,7 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    padding: 20px;
-    background-color: #f7f7f7;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-.container {
-    max-width: 500px;
-    margin: 0 auto;
-}   
-h1 {
-    text-align: center;
-}
-label {
-    margin-top: 20px;
-    display: block;
-}
-input, button {
-    width: 100%;
-    padding: 10px;
-    margin-top: 10px;
-    font-size: 16px;
-}
 #slugResult {
     margin-top: 20px;
     padding: 10px;
-    background-color: #e2e2e2;
     border-radius: 4px;
     font-family: monospace;
+    border: 1px solid #ddd;
 }
