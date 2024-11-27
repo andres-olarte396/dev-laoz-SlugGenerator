@@ -25,12 +25,23 @@
     </header>
     <main>
       <div class="container">
-        <label for="inputText">Texto para convertir:</label>
-        <input type="text" id="inputText" placeholder="Escribe tu texto aquí" />
-        <button id="generateSlug">Generar Slug</button>
-
-        <h2>Slug Generado:</h2>
-        <div id="slugResult"></div>
+        <fieldset>
+          <legend>Slug Generator</legend>
+          <p>
+            Un slug es una versión amigable de una URL que se utiliza para
+            identificar una página web de forma única. Los slugs suelen ser
+            cortos, descriptivos y fáciles de leer.
+          </p>
+          <label for="inputText">Texto para convertir:</label>
+          <input
+            type="text"
+            id="inputText"
+            placeholder="Escribe tu texto aquí"
+          />
+          <button id="generateSlug">Generar Slug</button>
+          <h2>Slug Generado:</h2>
+          <div id="slugResult"></div>
+        </fieldset>
       </div>
     </main>
     <footer>
